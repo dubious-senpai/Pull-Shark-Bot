@@ -1,6 +1,6 @@
 import pyautogui
 import time
-
+ 
 def find_and_click_button(image_path, confidence=0.9):
     try:
         # Locate the button on the screen
