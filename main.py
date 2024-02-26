@@ -37,24 +37,24 @@ if __name__ == "__main__":
     confidence_level = 0.9
 
     # Click the first image and wait 3 seconds
-    click_and_wait('C:/Users/paul/Pictures/Screenshots/Screenshot 2024-02-26 115317.png', confidence=confidence_level)
+    click_and_wait('C:/Users/ur_username_here/Pictures/Screenshots/Screenshot 2024-02-26 115317.png', confidence=confidence_level)
 
     # Click the second image and wait 3 seconds
-    click_and_wait('C:/Users/paul/Pictures/Screenshots/Screenshot 2024-02-26 115341.png', confidence=confidence_level)
+    click_and_wait('C:/Users/ur_username_here/Pictures/Screenshots/Screenshot 2024-02-26 115341.png', confidence=confidence_level)
 
     pyautogui.click()
     pyautogui.write(".")
 
     # Click the third image and wait 3 seconds
-    click_and_wait('C:/Users/paul/Pictures/Screenshots/Screenshot 2024-02-26 115444.png', confidence=confidence_level)
+    click_and_wait('C:/Users/ur_username_here/Pictures/Screenshots/Screenshot 2024-02-26 115444.png', confidence=confidence_level)
 
     # Click the fourth image and wait 3 seconds
-    click_and_wait('C:/Users/paul/Pictures/Screenshots/Screenshot 2024-02-26 115502.png', confidence=confidence_level)
+    click_and_wait('C:/Users/ur_username_here/Pictures/Screenshots/Screenshot 2024-02-26 115502.png', confidence=confidence_level)
 
     
 
     # Click the fifth image and wait 3 seconds
-    click_and_wait('C:/Users/paul/Pictures/Screenshots/Screenshot 2024-02-26 115514.png', confidence=confidence_level)
+    click_and_wait('C:/Users/ur_username_here/Pictures/Screenshots/Screenshot 2024-02-26 115514.png', confidence=confidence_level)
 
     pyautogui.scroll(-300)
     time.sleep(1)
@@ -62,21 +62,21 @@ if __name__ == "__main__":
    
 
     # Click the sixth image and wait 3 seconds
-    click_and_wait('C:/Users/paul/Pictures/Screenshots/Screenshot 2024-02-26 115536.png', confidence=confidence_level)
+    click_and_wait('C:/Users/ur_username_here/Pictures/Screenshots/Screenshot 2024-02-26 115536.png', confidence=confidence_level)
 
     pyautogui.scroll(-300)
     time.sleep(1)
 
     # Click the seventh image and wait 3 seconds
-    click_and_wait('C:/Users/paul/Pictures/Screenshots/Screenshot 2024-02-26 104137.png', confidence=confidence_level)
+    click_and_wait('C:/Users/ur_username_here/Pictures/Screenshots/Screenshot 2024-02-26 104137.png', confidence=confidence_level)
 
     
 
     # Click the eighth image and wait 3 seconds
-    click_and_wait('C:/Users/paul/Pictures/Screenshots/Screenshot 2024-02-26 104142.png', confidence=confidence_level)
+    click_and_wait('C:/Users/ur_username_here/Pictures/Screenshots/Screenshot 2024-02-26 104142.png', confidence=confidence_level)
 
     pyautogui.scroll(300)
     time.sleep(1)
 
     # Click the ninth image and wait 3 seconds
-    click_and_wait('C:/Users/paul/Pictures/Screenshots/Screenshot 2024-02-26 115645.png', confidence=confidence_level)
+    click_and_wait('C:/Users/ur_username_here/Pictures/Screenshots/Screenshot 2024-02-26 115645.png', confidence=confidence_level)
