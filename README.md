@@ -9,8 +9,8 @@ Pull Shark Bot is a Python bot designed to help you achieve the Pull Shark Achie
 2. **Download Screenshots and Modify Code**:
     - Download the screenshots provided in the repository.
     - Replace the placeholder username in the code with your actual username:
-        - Replace `'C:/Users/ur_username_here/Downloads/Screenshot 2024-02-26 115317.png'` with the path to your first screenshot.
-        - Replace `'C:/Users/ur_username_here/Downloads/Screenshot 2024-02-26 115341.png'` with the path to your second screenshot.
+        - Put your username in `'C:/Users/ur_username_here/Downloads/Screenshot 2024-02-26 115317.png'` 
+        - Put your username in `'C:/Users/ur_username_here/Downloads/Screenshot 2024-02-26 115341.png'` 
         - Repeat this process for all the screenshots.
 
 3. **Run the Bot**: After modifying the code with your username and ensuring that the screenshots are in the correct locations, run the bot to automate the process of achieving the Pull Shark status.
