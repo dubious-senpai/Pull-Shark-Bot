@@ -1,3 +1,20 @@
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+
+
 import pyautogui
 
 def find_and_click_button(image_path, confidence=0.9):
