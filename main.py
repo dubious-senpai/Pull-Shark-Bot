@@ -1,5 +1,9 @@
 #
-#....
+#
+#
+#
+#
+#
 #
 #
 #
@@ -8,66 +12,71 @@
 #
 #
 
-import pyautogui
+
 import time
- 
-def find_and_click_button(image_path, confidence=0.9):
+import pyautogui
+
+def click_and_wait(image_path, wait_time=3, confidence=0.7):
     try:
-        # Locate the button on the screen
         button_location = pyautogui.locateCenterOnScreen(image_path, confidence=confidence)
-        
         if button_location is not None:
-            # Click the button
             pyautogui.click(button_location)
-            print(f"Button at '{image_path}' clicked successfully!")
+            print(f"Clicked '{image_path}' successfully!")
+            time.sleep(wait_time)
             return True
         else:
-            print(f"Button at '{image_path}' not found on the screen.")
+            print(f"Failed to find '{image_path}' on the screen.")
             return False
     except Exception as e:
-        print(f"An error occurred: {str(e)}")
+        print(f"An error occurred: {str(e)}") 
         return False
 
-# Click the first image
-find_and_click_button(r'C:\Users\paul\Pictures\Screenshots\Screenshot 2024-02-26 115317.png')
+# Example usage:
+if __name__ == "__main__":
+    # Adjust the confidence level as needed
+    confidence_level = 0.9
 
-# Click the second image
-find_and_click_button(r'C:\Users\paul\Pictures\Screenshots\Screenshot 2024-02-26 115341.png')
+    # Click the first image and wait 3 seconds
+    click_and_wait('C:/Users/paul/Pictures/Screenshots/Screenshot 2024-02-26 115317.png', confidence=confidence_level)
 
-# Press space
-pyautogui.press('space')
+    # Click the second image and wait 3 seconds
+    click_and_wait('C:/Users/paul/Pictures/Screenshots/Screenshot 2024-02-26 115341.png', confidence=confidence_level)
 
-# Click the third image
-find_and_click_button(r'C:\Users\paul\Pictures\Screenshots\Screenshot 2024-02-26 115444.png')
+    pyautogui.click()
+    pyautogui.write(".")
 
-# Click the fourth image
-find_and_click_button(r'C:\Users\paul\Pictures\Screenshots\Screenshot 2024-02-26 115502.png')
+    # Click the third image and wait 3 seconds
+    click_and_wait('C:/Users/paul/Pictures/Screenshots/Screenshot 2024-02-26 115444.png', confidence=confidence_level)
 
-# Click the fifth image
-find_and_click_button(r'C:\Users\paul\Pictures\Screenshots\Screenshot 2024-02-26 115514.png')
+    # Click the fourth image and wait 3 seconds
+    click_and_wait('C:/Users/paul/Pictures/Screenshots/Screenshot 2024-02-26 115502.png', confidence=confidence_level)
 
-# Scroll down three times
-for _ in range(3):
-    pyautogui.scroll(-100)
+    
 
-# Click the sixth image
-find_and_click_button(r'C:\Users\paul\Pictures\Screenshots\Screenshot 2024-02-26 115536.png')
+    # Click the fifth image and wait 3 seconds
+    click_and_wait('C:/Users/paul/Pictures/Screenshots/Screenshot 2024-02-26 115514.png', confidence=confidence_level)
 
-# Scroll down three times
-for _ in range(3):
-    pyautogui.scroll(-100)
+    pyautogui.scroll(-300)
+    time.sleep(1)
+    
+   
 
-# Wait for 5 seconds
-time.sleep(5)
+    # Click the sixth image and wait 3 seconds
+    click_and_wait('C:/Users/paul/Pictures/Screenshots/Screenshot 2024-02-26 115536.png', confidence=confidence_level)
 
-# Click the seventh image
-find_and_click_button(r'C:\Users\paul\Pictures\Screenshots\Screenshot 2024-02-26 104137.png')
+    pyautogui.scroll(-300)
+    time.sleep(1)
 
-# Click the eighth image
-find_and_click_button(r'C:\Users\paul\Pictures\Screenshots\Screenshot 2024-02-26 104142.png')
+    # Click the seventh image and wait 3 seconds
+    click_and_wait('C:/Users/paul/Pictures/Screenshots/Screenshot 2024-02-26 104137.png', confidence=confidence_level)
 
-# Scroll back up
-pyautogui.scroll(300)
+    
 
-# Press the ninth image
-find_and_click_button(r'C:\Users\paul\Pictures\Screenshots\Screenshot 2024-02-26 115645.png')
+    # Click the eighth image and wait 3 seconds
+    click_and_wait('C:/Users/paul/Pictures/Screenshots/Screenshot 2024-02-26 104142.png', confidence=confidence_level)
+
+    pyautogui.scroll(300)
+    time.sleep(1)
+
+    # Click the ninth image and wait 3 seconds
+    click_and_wait('C:/Users/paul/Pictures/Screenshots/Screenshot 2024-02-26 115645.png', confidence=confidence_level)
