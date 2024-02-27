@@ -1,6 +1,6 @@
 # Pull Shark Bot
 
-Pull Shark Bot is a Python bot designed to help you achieve the Pull Shark Achievement in a totally legitimate manner.
+Pull Shark Bot is a Python bot designed to help you get the Pull Shark Achievement in a totally legitimate manner.
 
 ## How to Use
 
