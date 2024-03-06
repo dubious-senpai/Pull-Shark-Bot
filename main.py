@@ -18,7 +18,7 @@ import pyautogui
 import keyboard  # Import keyboard module to detect key presses
 
 def click_and_wait(image_path, wait_time=3, confidence=0.7):
-    try: 
+    try:  
         button_location = pyautogui.locateCenterOnScreen(image_path, confidence=confidence)
         if button_location is not None:
             pyautogui.click(button_location)
